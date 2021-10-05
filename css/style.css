@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: black;
+    background-image: url("../images/galaxy.jpg");
+
+}
+
+/* body{
+    
+} */
+
+/* #specimen img{
+    width: 100%;
+    background-image: none;
+} */
+
+/* #specimen{
+    width: 11%; 
+    height: 11%;
+} */
+
+.img{
+    width: 10%;
+    background-image: none;
+}
+
+#img2{
+    margin-left: 14%;
+}
+#img3{
+    margin-left: 28%;
+}
+#img4{
+    margin-left: 42%;
+}
+#img5{
+    margin-left: 56%;
+}
+#img6{
+    margin-left: 70%;
+}
+
+#ship{
+    width: 10%;
+}
