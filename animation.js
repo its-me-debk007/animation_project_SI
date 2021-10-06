@@ -8,8 +8,6 @@ let ast6= document.getElementById("img6");
 let ship = document.getElementById("ship");
 
 let pos = 0;
-let speed = Math.random();
-let speed2 = speed;
 
 let a = [0, 1000, 30, 5, 700, 1200, 2000];
 
@@ -23,7 +21,6 @@ setInterval(function(){ move(ast6); }, a[Math.floor(Math.random() * a.length)]);
 function move(asteroid){
 
     if(pos > 480) {
-        // clearInterval(timer);
         pos = 0;
     }
 
@@ -42,7 +39,7 @@ function shipMove(){
     if (event.key == "ArrowRight" && shipPosHorizontal < 92)
         shipPosHorizontal+= 2;
 
-    else if(event.key == "ArrowLeft" && shipPosHorizontal > 0)
+    else if(event.key == "ArrowLeft" && shipPosHorizontal > 1)
         shipPosHorizontal-= 2;
 
     else if(event.key == "ArrowUp" && shipPosVertical < 80){
@@ -58,6 +55,4 @@ function shipMove(){
     console.log(shipPosHorizontal);
     console.log(shipPosVertical);
 }
-
-if(Math.abs(pos - shipPosVertical) >= 66) alert("Game Over :(");
 
