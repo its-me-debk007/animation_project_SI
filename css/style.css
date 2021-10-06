@@ -7,41 +7,35 @@
 
 }
 
-/* body{
-    
-} */
-
-/* #specimen img{
-    width: 100%;
-    background-image: none;
-} */
-
-/* #specimen{
-    width: 11%; 
-    height: 11%;
-} */
-
 .img{
-    width: 10%;
-    background-image: none;
+    width: 13%;
+    /* background-image: none; */
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+
 }
 
 #img2{
-    margin-left: 14%;
+    margin-left: 17%;
 }
 #img3{
-    margin-left: 28%;
+    margin-left: 34%;
 }
 #img4{
-    margin-left: 42%;
+    margin-left: 51%;
 }
 #img5{
-    margin-left: 56%;
+    margin-left: 68%;
 }
 #img6{
-    margin-left: 70%;
+    margin-left: 85%;
 }
 
+
 #ship{
-    width: 10%;
+    width: 7%;
+    margin-top: 39%;
+    position: absolute;
+    
 }
