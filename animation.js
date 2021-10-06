@@ -13,7 +13,7 @@ let speed2 = speed;
 
 let a = [0, 1000, 30, 5, 700, 1200, 2000];
 
-setInterval(function(){ move(ast1); }, 0);
+setInterval(function(){ move(ast1); }, a[Math.floor(Math.random() * a.length)]);
 setInterval(function(){ move(ast2); }, a[Math.floor(Math.random() * a.length)]);
 setInterval(function(){ move(ast3); }, a[Math.floor(Math.random() * a.length)]);
 setInterval(function(){ move(ast4); }, a[Math.floor(Math.random() * a.length)]);
